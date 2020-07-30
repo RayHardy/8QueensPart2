@@ -1,4 +1,4 @@
-#8QueensPart2
+# 8QueensPart2
 
 An object oriented approach to solve the 8 queens approach
 
