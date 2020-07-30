@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71236D68207FAD5900BA9046 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71236D67207FAD5900BA9046 /* main.cpp */; };
+		71236D71207FADAA00BA9046 /* 8QueensPart2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71236D6F207FADAA00BA9046 /* 8QueensPart2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		71236D64207FAD5900BA9046 /* 8QueensPart2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 8QueensPart2; sourceTree = BUILT_PRODUCTS_DIR; };
-		71236D67207FAD5900BA9046 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		71236D67207FAD5900BA9046 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+		71236D6F207FADAA00BA9046 /* 8QueensPart2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 8QueensPart2.cpp; sourceTree = "<group>"; };
+		71236D70207FADAA00BA9046 /* 8QueensPart2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 8QueensPart2.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		71236D5B207FAD5900BA9046 = {
 			isa = PBXGroup;
 			children = (
+				71236D6F207FADAA00BA9046 /* 8QueensPart2.cpp */,
+				71236D70207FADAA00BA9046 /* 8QueensPart2.hpp */,
 				71236D66207FAD5900BA9046 /* 8QueensPart2 */,
 				71236D65207FAD5900BA9046 /* Products */,
 			);
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71236D68207FAD5900BA9046 /* main.cpp in Sources */,
+				71236D71207FADAA00BA9046 /* 8QueensPart2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
